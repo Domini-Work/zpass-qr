@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Overview
+Z-Pass is a QR code-based attendance and session tracking system prototype. It allows event participants to register and receive a unique QR code for seamless check-in at various event sessions.
 
-## Getting Started
+## Problem Statement
+Large events with multiple simultaneous tracks face severe bottlenecks during check-in. Manual verification is slow, leading to long queues. Organizers lack real-time data on room capacity, and volunteers spend excessive time on manual data entry rather than assisting attendees.
 
-First, run the development server:
+## Features
+- Web-based registration portal for attendees, speakers, and volunteers.
+- Passcode-protected registration for privileged roles.
+- Automated generation of unique QR codes for each user.
+- Local CSV-based data storage for rapid prototyping.
+- Responsive user interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technology Stack
+- Frontend: Next.js, React, Tailwind CSS
+- Backend: Next.js API Routes, Node.js
+- Storage: CSV file processing
+- Utilities: qrcode, uuid
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup Instructions
+1. Clone the repository to your local machine.
+2. Open a terminal and navigate to the project directory.
+3. Run "npm install" to install all required dependencies.
+4. Run "npm run dev" to start the development server.
+5. Open a web browser and navigate to http://localhost:3000 to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Future Scope
+- Transition from local CSV storage to a robust relational database like PostgreSQL.
+- Develop a dedicated volunteer web application with an integrated camera scanner to process QR codes at room entrances.
+- Implement real-time dashboard analytics for event organizers to monitor room capacities.

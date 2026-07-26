@@ -1,0 +1,7 @@
+id,name,email,role,timestamp
+d290f1ee-6c54-4b01-90e6-d701748f0851,Alice Smith,alice@example.com,ATTENDEE,2026-07-26T10:00:00.000Z
+d290f1ee-6c54-4b01-90e6-d701748f0852,Bob Jones,bob@example.com,SPEAKER,2026-07-26T10:05:00.000Z
+d290f1ee-6c54-4b01-90e6-d701748f0853,Charlie Brown,charlie@example.com,VOLUNTEER,2026-07-26T10:10:00.000Z
+a89885bf-9362-4b61-beb7-3aa9d30dd2fa,Test Node,node@test.com,ATTENDEE,2026-07-26T18:36:41.155Z
+a4cfb7a2-b1b6-494f-a086-23b9f677a28b,Chris,chris.shony@btech.christuniversity.in,ATTENDEE,2026-07-26T18:38:45.497Z
+a9cfa6b2-3666-4594-bf78-60345e56f70e,abc,abc@gmail.com,SPEAKER,2026-07-26T18:43:32.573Z

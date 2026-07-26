@@ -1,3 +1,5 @@
+# Z-Pass
+
 ## Project Overview
 Z-Pass is a QR code-based attendance and session tracking system prototype. It allows event participants to register and receive a unique QR code for seamless check-in at various event sessions.
 
@@ -9,6 +11,7 @@ Large events with multiple simultaneous tracks face severe bottlenecks during ch
 - Passcode-protected registration for privileged roles.
 - Automated generation of unique QR codes for each user.
 - Local CSV-based data storage for rapid prototyping.
+- Dedicated verification portal for volunteers to scan/lookup UUIDs and verify attendee details.
 - Responsive user interface.
 
 ## Technology Stack
@@ -22,7 +25,8 @@ Large events with multiple simultaneous tracks face severe bottlenecks during ch
 2. Open a terminal and navigate to the project directory.
 3. Run "npm install" to install all required dependencies.
 4. Run "npm run dev" to start the development server.
-5. Open a web browser and navigate to http://localhost:3000 to view the application.
+5. Open a web browser and navigate to http://localhost:3000 to view the registration application.
+6. Navigate to http://localhost:3000/verify to access the volunteer verification portal.
 
 ## Future Scope
 - Transition from local CSV storage to a robust relational database like PostgreSQL.
